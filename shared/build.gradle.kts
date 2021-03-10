@@ -8,6 +8,7 @@ val coroutinesKtxVersion = "1.3.2"
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    kotlin("plugin.serialization") version "1.4.30"
 }
 
 kotlin {
